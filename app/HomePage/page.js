@@ -15,32 +15,30 @@ import BottomTab from "@/components/BottomBar";
 import UserInfoPopup from "@/components/userDetailPopup";
 
 const heroImages = [
-  "/assets/images/Hero-Banner/ostro_hero_banner-1.jpg",
-  "/assets/images/Hero-Banner/ostro_hero_banner-2.jpg",
-  "/assets/images/Hero-Banner/ostro_hero_banner-3.jpg",
+  "/assets/images/Hero-Banner/ounce_hero_banner_1.jpg",
+  "/assets/images/Hero-Banner/ounce_hero_banner_2.jpg",
+  "/assets/images/Hero-Banner/ounce_hero_banner_3.jpg",
 ];
 
 const populerSearches = [
-  "Best tile adhesive",
-  "Ostro adhesive reviews",
-  "Strongest tile glue",
-  "Waterproof tile adhesive",
-  "Wall vs floor adhesive",
-  "Ostro ceramic adhesive",
-  "Apply tile adhesive",
-  "Top adhesive brands",
-  "Heatproof tile glue",
-  "Fast-dry adhesive",
-  "Ostro vs competitors",
-  "Outdoor tile adhesive",
-  "Adhesive for marble/granite",
-  "Crackproof tile glue",
-  "Ostro adhesive price",
-  "Tile adhesive guide",
-  "Long-lasting adhesive",
-  "Cement vs ready-mix adhesive",
-  "Eco-friendly tile glue",
-  "Vertical tile bonding",
+  "Best windows 2025",
+  "uPVC vs aluminium windows",
+  "Energy-efficient windows for home",
+  "Noise reduction windows",
+  "Top window brands in India",
+  "Window buying guide",
+  "Windows with best insulation",
+  "Smart windows for modern homes",
+  "Windows with insect screens",
+  "Sliding vs casement windows",
+  "Windows with built-in blinds",
+  "How to clean double-glazed windows",
+  "Custom window designs for villas",
+  "Affordable window solutions",
+  "Best windows for hot climates",
+  "Weatherproof window options",
+  "Window installation tips",
+  "Modern window trends 2025",
 ];
 
 const carouselSettings = {
@@ -129,30 +127,29 @@ export function SocialStoriesSection() {
 
 const faqs = [
   {
-    question: "What makes Ostro Tile Adhesive different from other brands?",
+    question: "What makes Ounce windows different from other window brands?",
     answer:
-      "Ostro Tile Adhesive is engineered for superior bonding strength, long-lasting durability, and excellent workability—perfect for all types of tile installations.",
+      "Ounce windows are crafted with precision engineering, high-performance materials, and a focus on durability, insulation, and modern aesthetics—providing long-lasting comfort and energy efficiency.",
   },
   {
-    question: "Where can Ostro Tile Adhesive be used?",
+    question: "Do Ounce windows help reduce energy bills?",
     answer:
-      "Ostro is ideal for fixing ceramic, vitrified, porcelain, glass mosaic, natural stone, and large-format tiles on floors and walls—indoors and outdoors.",
+      "Yes. Our windows are designed with advanced thermal insulation and weather-sealing technology, which helps regulate indoor temperature and lower energy consumption.",
   },
   {
-    question:
-      "Is Ostro adhesive suitable for wet areas like bathrooms and kitchens?",
+    question: "Are Ounce windows customizable?",
     answer:
-      "Yes, Ostro offers water-resistant adhesives specifically designed for wet and high-moisture areas such as bathrooms, kitchens, and swimming pools.",
+      "Absolutely! We offer a wide range of customization options including frame styles, glass types, finishes, and sizes to suit your design and functional needs.",
   },
   {
-    question: "How long does it take for Ostro Tile Adhesive to set?",
+    question: "What materials do you use in Ounce windows?",
     answer:
-      "Typically, it takes 24 hours for full curing, but initial setting begins within 4–6 hours depending on environmental conditions.",
+      "We use premium materials such as uPVC, aluminum, and composite frames combined with high-quality glass to ensure strength, sustainability, and low maintenance.",
   },
   {
-    question: "Can Ostro adhesive be used on existing tiles?",
+    question: "Are Ounce windows soundproof?",
     answer:
-      "Yes, with the right surface preparation and a suitable Ostro product, you can tile over existing tiles securely.",
+      "Yes. Our double-glazed and laminated glass options significantly reduce external noise, making your indoor environment quieter and more peaceful.",
   },
 ];
 
@@ -179,7 +176,7 @@ export function FAQSection() {
               onClick={() => setOpenIndex(openIndex === idx ? -1 : idx)}
             >
               <span className="flex-1">{faq.question}</span>
-              <span className="text-3xl ml-4" style={{ color: "#B62025" }}>
+              <span className="text-3xl ml-4" style={{ color: "#83BE41" }}>
                 {openIndex === idx ? "−" : "+"}
               </span>
             </button>
@@ -301,7 +298,7 @@ const HomeScreen = () => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+919942500600"; // Replace with your number
+    window.location.href = "tel:+919099060123"; // Replace with your number
   };
 
   const handleLocation = () => {
@@ -309,7 +306,7 @@ const HomeScreen = () => {
   };
 
   const handleWhatsApp = () => {
-    const phoneNumber = "919942500600"; // Replace with your number
+    const phoneNumber = "919099060123"; // Replace with your number
     const defaultMessage = `Hi, I'm interested in your products. Could you please provide more details?`;
 
     const encodedMessage = encodeURIComponent(defaultMessage);
@@ -320,7 +317,7 @@ const HomeScreen = () => {
   };
 
   const handleMail = () => {
-    window.location.href = "mailto:ostrocemex@gmail.com"; // Replace with your email
+    window.location.href = "mailto:info@ozounce.in"; // Replace with your email
   };
 
   const handleFacebook = () => {
@@ -354,8 +351,8 @@ const HomeScreen = () => {
   const getPrice = (product) => {
     const userInfo = sessionStorage.getItem("userInfo");
     if (isMobile) {
-      const phoneNumber = "919942500600";
-      const imageUrl = `https://www.ostrocemex.com/${product?.image}`;
+      const phoneNumber = "919099060123";
+      const imageUrl = `https://www.ozounce.in/${product?.image}`;
 
       // Create a message with product details and image URL
       const message = `*Product Inquiry*
@@ -387,8 +384,8 @@ const HomeScreen = () => {
       if (!userInfo) {
         setIsPopupOpen(true); // Open the popup if session data is not available
       } else {
-        const phoneNumber = "919942500600";
-        const imageUrl = `https://www.ostrocemex.com/${product?.image}`;
+        const phoneNumber = "919099060123";
+        const imageUrl = `https://www.ozounce.in/${product?.image}`;
 
         // Create a message with product details and image URL
         const message = `*Product Inquiry*
@@ -597,8 +594,8 @@ const HomeScreen = () => {
           <button
             onClick={() => {
               const link = document.createElement("a");
-              link.href = "/assets/images/Ostro-Company-Profile.pdf";
-              link.download = "Ostro-Company-Catalogue.pdf";
+              link.href = "/assets/images/Ounce-Brochure-15-20MM-Print-LR.pdf";
+              link.download = "Ounce-Brochure-15-20MM-Print-LR.pdf";
               link.click();
             }}
             style={buttonStyle}
@@ -1343,14 +1340,18 @@ const HomeScreen = () => {
                       </div>
                     </div>
                   </div>
-                  <h3 className="title">{`At OSTRO, we’re building the future—one tile at a time.`}</h3>
+                  <h3 className="title">{`Ounce Ecstatic — Where Views Take Center Stage`}</h3>
                   <p>
-                    Founded with a vision to revolutionize the surface finishing
-                    and bonding industry, OSTRO stands at the forefront of tile
-                    chemical innovation. From tile adhesives and grouts to
-                    waterproofing compounds and surface cleaners, we provide
-                    high-performance solutions that bring unmatched durability,
-                    resilience, and beauty to every surface.
+                    At Ounce Ecstatic, we don’t just build windows—we craft
+                    visual freedom. Fusing precision engineering with sleek,
+                    minimalist aesthetics, our window solutions are designed to
+                    dissolve boundaries and expand your perspective. With
+                    ultra-slim frames that nearly vanish, our products transform
+                    walls into breathtaking panoramas, blending nature and
+                    architecture into one seamless experience. Whether it’s a
+                    luxurious home, a modern office, or a sky-kissed high-rise,
+                    Ounce Ecstatic brings in the beauty of the outside world
+                    with elegance, strength, and innovation.
                   </p>
                   <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-12">
@@ -1358,17 +1359,17 @@ const HomeScreen = () => {
                         <div className="icon">
                           {/* <i
                             className="ti-desktop"
-                            style={{ color: "#B62025" }}
+                            style={{ color: "#83BE41" }}
                           /> */}
                           <img
-                            src="/assets/images/home-about-us/new_bonding.svg"
+                            src="/assets/images/home-about-us/home_ultraslim_frame.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
-                            style={{ width: "20px", height: "20px" }}
+                            style={{ width: "25px", height: "25px" }}
                           />
                         </div>
                         <div className="info">
-                          <h6>New Bonding Formula</h6>
+                          <h6>Ultra-Slim Frame Engineering</h6>
                         </div>
                       </div>
                     </div>
@@ -1377,17 +1378,17 @@ const HomeScreen = () => {
                         <div className="icon">
                           {/* <i
                             className="ti-volume"
-                            style={{ color: "#B62025" }}
+                            style={{ color: "#83BE41" }}
                           /> */}
                           <img
-                            src="/assets/images/home-about-us/crystal_finish.svg"
+                            src="/assets/images/home-about-us/home_thermal&acoustic.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
-                            style={{ width: "20px", height: "20px" }}
+                            style={{ width: "25px", height: "25px" }}
                           />
                         </div>
                         <div className="info">
-                          <h6>Crystal Finish Compatibility</h6>
+                          <h6>Thermal & Acoustic Insulation</h6>
                         </div>
                       </div>
                     </div>
@@ -1396,17 +1397,17 @@ const HomeScreen = () => {
                         <div className="icon">
                           {/* <i
                             className="ti-desktop"
-                            style={{ color: "#B62025" }}
+                            style={{ color: "#83BE41" }}
                           /> */}
                           <img
-                            src="/assets/images/home-about-us/strong.svg"
+                            src="/assets/images/home-about-us/home_highstrength.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
-                            style={{ width: "20px", height: "20px" }}
+                            style={{ width: "25px", height: "25px" }}
                           />
                         </div>
                         <div className="info">
-                          <h6>Strong on Every Surface</h6>
+                          <h6>High-Strength Aluminum Profiles</h6>
                         </div>
                       </div>
                     </div>
@@ -1415,17 +1416,17 @@ const HomeScreen = () => {
                         <div className="icon">
                           {/* <i
                             className="ti-desktop"
-                            style={{ color: "#B62025" }}
+                            style={{ color: "#83BE41" }}
                           /> */}
                           <img
-                            src="/assets/images/home-about-us/dual_compatibility.svg"
+                            src="/assets/images/home-about-us/home_customdesignsfor.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
-                            style={{ width: "20px", height: "20px" }}
+                            style={{ width: "25px", height: "25px" }}
                           />
                         </div>
                         <div className="info">
-                          <h6>Dual Compatibility – Floor & Wall</h6>
+                          <h6>Custom Designs for Every Space</h6>
                         </div>
                       </div>
                     </div>
@@ -1434,17 +1435,17 @@ const HomeScreen = () => {
                         <div className="icon">
                           {/* <i
                             className="ti-volume"
-                            style={{ color: "#B62025" }}
+                            style={{ color: "#83BE41" }}
                           /> */}
                           <img
-                            src="/assets/images/home-about-us/smart_application.svg"
+                            src="/assets/images/home-about-us/home_smoothsliding.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
-                            style={{ width: "20px", height: "20px" }}
+                            style={{ width: "25px", height: "25px" }}
                           />
                         </div>
                         <div className="info">
-                          <h6>Smart Application Technology</h6>
+                          <h6>Smooth Sliding Systems</h6>
                         </div>
                       </div>
                     </div>
@@ -1453,31 +1454,37 @@ const HomeScreen = () => {
                         <div className="icon">
                           {/* <i
                             className="ti-desktop"
-                            style={{ color: "#B62025" }}
+                            style={{ color: "#83BE41" }}
                           /> */}
                           <img
-                            src="/assets/images/home-about-us/new_strength.svg"
+                            src="/assets/images/home-about-us/home_smart_integration.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
-                            style={{ width: "20px", height: "20px" }}
+                            style={{ width: "25px", height: "25px" }}
                           />
                         </div>
                         <div className="info">
-                          <h6>New Strength, Every Tile.</h6>
+                          <h6>Smart Integration Ready</h6>
                         </div>
                       </div>
                     </div>
                   </div>
                   <p>
-                    With a strong commitment to quality and reliability, OSTRO
-                    is trusted by architects, contractors, retailers, and
-                    homeowners across the country. Our products are engineered
-                    to withstand the test of time, weather, and wear—so your
-                    spaces stay stunning and structurally sound.
+                    Step into a new era of design with Ounce Ecstatic’s advanced
+                    window systems. Every product reflects our commitment to
+                    innovation, aesthetics, and engineering brilliance. Whether
+                    you're capturing sunlit serenity or framing a city skyline,
+                    we ensure your view remains the hero.
+                    <br />
+                    <br />
+                    <b>
+                      Our Engineering Marvel Makes Slim Frames Disappear,
+                      Leaving Only Ecstasy in View.
+                    </b>
                     <a
                       href="/about"
                       style={{
-                        color: "#B62025",
+                        color: "#83BE41",
                         cursor: "pointer",
                         fontSize: "15px",
                         whiteSpace: "nowrap",
@@ -1507,11 +1514,19 @@ const HomeScreen = () => {
                             alignItems: "center",
                             justifyContent: "center",
                             display: "flex",
-                            height: "400px",
+                            // height: "400px",
+                            width: "100%",
                           }}
                         >
-                          <Link href={`/product-details/${product.slug}`}>
-                            <img src={product.image} alt="TV Product Image" />
+                          <Link
+                            href={`/product-details/${product.slug}`}
+                            style={{ width: "100%" }}
+                          >
+                            <img
+                              src={product.image}
+                              alt="TV Product Image"
+                              style={{ width: "100%" }}
+                            />
                           </Link>
                           <span
                             className="featured-btn"
@@ -1534,7 +1549,7 @@ const HomeScreen = () => {
                             style={{
                               display: "-webkit-box",
                               WebkitBoxOrient: "vertical",
-                              WebkitLineClamp: 5,
+                              WebkitLineClamp: 4,
                               overflow: "hidden",
                               textOverflow: "ellipsis",
                               maxWidth: "300px",
@@ -1731,7 +1746,7 @@ const HomeScreen = () => {
                           if (!userInfo) {
                             setIsPopupOpen(true); // Open the popup if session data is not available
                           } else {
-                            const phoneNumber = "919942500600"; // Replace with your retailer's WhatsApp number
+                            const phoneNumber = "919099060123"; // Replace with your retailer's WhatsApp number
                             const message = `${requirementInput}`;
                             const encodedMessage = encodeURIComponent(message);
                             const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
@@ -1748,7 +1763,7 @@ const HomeScreen = () => {
                     >
                       Or connect with seller instantly
                       <a
-                        href="tel: 9942500600"
+                        href="tel: 9099060123"
                         className="text-decoration-none ms-1"
                       >
                         <strong
@@ -1758,7 +1773,7 @@ const HomeScreen = () => {
                             marginLeft: "5px",
                           }}
                         >
-                          99425 00600
+                          9099060123
                         </strong>
                       </a>
                     </div>

@@ -63,14 +63,14 @@ const TermsAndConsition = () => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+919942500600"; // Replace with your number
+    window.location.href = "tel:+919099060123"; // Replace with your number
   };
 
   const handleLocation = () => {
     window.open("https://maps.app.goo.gl/EZFSQGfVzj9pBQ5e9", "_blank");
   };
   const handleWhatsApp = () => {
-    const phoneNumber = "919942500600"; // Replace with your number
+    const phoneNumber = "919099060123"; // Replace with your number
     const defaultMessage = `Hi, I'm interested in your products. Could you please provide more details?`;
 
     const encodedMessage = encodeURIComponent(defaultMessage);
@@ -81,7 +81,7 @@ const TermsAndConsition = () => {
   };
 
   const handleMail = () => {
-    window.location.href = "mailto:ostrocemex@gmail.com"; // Replace with your email
+    window.location.href = "mailto:info@ozounce.in"; // Replace with your email
   };
 
   const handleFacebook = () => {
@@ -412,9 +412,9 @@ const TermsAndConsition = () => {
                 <strong>Country</strong> refers to: Gujarat, India
               </li>
               <li>
-                <strong>Company</strong> refers to Ostro, FP No - 274, TP No -
-                229, Nr. Shilpgram I, Gate No - 2, Jaspur, Kalol, Gandhinagar,
-                382721. Gujarat.
+                <strong>Company</strong> refers to Ounce, Plot No. G601, Gate
+                No.-2 (Almighty), GIDC Metoda, kalawad Road, Tal-Lodhika,
+                Rajkot-360021
               </li>
               <li>
                 <strong>Device</strong> means any device that can access the
@@ -429,12 +429,9 @@ const TermsAndConsition = () => {
                 Company regarding the use of the Service.
               </li>
               <li>
-                <strong>Website</strong> refers to Ostro, accessible from{" "}
-                <a
-                  href="http://www.ostrocemex.com"
-                  style={{ color: "#007bff" }}
-                >
-                  www.ostrocemex.com
+                <strong>Website</strong> refers to Ounce, accessible from{" "}
+                <a href="http://www.ozounce.in" style={{ color: "#007bff" }}>
+                  www.ozounce.in
                 </a>
               </li>
               <li>
@@ -631,11 +628,8 @@ const TermsAndConsition = () => {
             >
               <li>
                 By email:{" "}
-                <a
-                  href="mailto:ostrocemex@gmail.com"
-                  style={{ color: "#007bff" }}
-                >
-                  ostrocemex@gmail.com
+                <a href="mailto:info@ozounce.in" style={{ color: "#007bff" }}>
+                  info@ozounce.in
                 </a>
               </li>
             </ul>

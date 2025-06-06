@@ -63,7 +63,7 @@ const Contact = () => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+919942500600"; // Replace with your number
+    window.location.href = "tel:+919099060123"; // Replace with your number
   };
 
   const handleLocation = () => {
@@ -71,25 +71,19 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919942500600", "_blank"); // Replace with your number
+    window.open("https://wa.me/919099060123", "_blank"); // Replace with your number
   };
 
   const handleMail = () => {
-    window.location.href = "mailto:ostrocemex@gmail.com"; // Replace with your email
+    window.location.href = "mailto:info@ozounce.in"; // Replace with your email
   };
 
   const handleFacebook = () => {
-    window.open(
-      "https://www.facebook.com/",
-      "_blank"
-    );
+    window.open("https://www.facebook.com/", "_blank");
   };
 
   const handleInstagram = () => {
-    window.open(
-      "https://www.instagram.com/",
-      "_blank"
-    );
+    window.open("https://www.instagram.com/", "_blank");
   };
 
   const handleLinkedIn = () => {
@@ -431,8 +425,8 @@ const Contact = () => {
                   <div className="info">
                     <h5>Address</h5>
                     <p>
-                      FP No - 274, TP No - 229, Nr. Shilpgram I, Gate No - 2,
-                      Jaspur, Kalol, Gandhinagar, 382721. Gujarat
+                      Plot No. G601, Gate No.-2 (Almighty), GIDC Metoda, kalawad
+                      Road, Tal-Lodhika, Rajkot-360021
                     </p>
                   </div>
                 </div>
@@ -443,7 +437,7 @@ const Contact = () => {
                   <div className="info">
                     <h5>Phone</h5>
                     <p>
-                      <a href="tel:+91 9942500600">+91 9942500600</a>
+                      <a href="tel:+91 9099060123">+91 9099060123</a>
                     </p>
                   </div>
                 </div>
@@ -454,9 +448,7 @@ const Contact = () => {
                   <div className="info">
                     <h5>Email</h5>
                     <p>
-                      <a href="mailto:ostrocemex@gmail.com">
-                        ostrocemex@gmail.com
-                      </a>
+                      <a href="mailto:info@ozounce.in">info@ozounce.in</a>
                     </p>
                   </div>
                 </div>

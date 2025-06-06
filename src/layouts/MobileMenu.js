@@ -104,7 +104,7 @@ const MobileMenu = () => {
                     </li>
                     <li className="nav-toggle-btn">
                       <div
-                        className={`navbar-toggler ${toggle ? "active" : ""}`}
+                        className={`navbar-toggler ${toggle ? "" : ""}`}
                         onClick={() => setToggle(!toggle)}
                       >
                         <span></span>

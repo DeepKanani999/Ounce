@@ -5,17 +5,11 @@ import React, { useEffect, useState } from "react";
 const Footer = () => {
   const [writtenMessage, setWrittenMessage] = useState("");
   const handleFacebook = () => {
-    window.open(
-      "https://www.facebook.com/",
-      "_blank"
-    );
+    window.open("https://www.facebook.com/", "_blank");
   };
 
   const handleInstagram = () => {
-    window.open(
-      "https://www.instagram.com/",
-      "_blank"
-    );
+    window.open("https://www.instagram.com/", "_blank");
   };
 
   const handleLinkedIn = () => {
@@ -184,10 +178,10 @@ const Footer = () => {
                         </span>
                         <h6 className="title">
                           <Link href="#" style={{ color: "#fff" }}>
-                            "Discover powerful Ostro tile adhesive that
-                            strengthens every bond, ensures lasting durability,
-                            and delivers unmatched performance for every tile
-                            installation."
+                            "Discover precision-engineered Ounce sliders that
+                            enhance every movement, ensure long-lasting
+                            durability, and deliver unmatched performance for
+                            every window and door installation."
                           </Link>
                         </h6>
                       </div>

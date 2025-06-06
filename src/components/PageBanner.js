@@ -7,9 +7,9 @@ const PageBanner = ({ pageName, title }) => {
       <div className="breadcrumbs-wrapper">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-md-10 col-sm-12">
               <div className="page-title">
-                <h1 className="title">{title}</h1>
+                <h1 className="title text-white">{title}</h1>
                 <ul className="breadcrumbs-link">
                   <li>
                     <Link href="/">Home</Link>
@@ -24,4 +24,5 @@ const PageBanner = ({ pageName, title }) => {
     </section>
   );
 };
+
 export default PageBanner;

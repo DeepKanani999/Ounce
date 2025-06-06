@@ -1,92 +1,75 @@
 export const products = [
   {
-    id: "som-001",
-    name: "Tiles Adhesive Gold",
-    slug: "Tiles-Adhesive-Gold",
-    tag: "Tiles-Adhesive-Gold",
+    id: "win-001",
+    name: "15mm Series Sliding Windows",
+    slug: "15mm-Series-Sliding-Windows",
+    tag: "Sliding-Windows-15mm",
     detail:
-      "Tiles Adhesive Gold – Type 1T is a high-performance, polymer-modified cement-based tile adhesive specially formulated for internal wall and floor tiling applications. Engineered to meet the specifications of IS 15477:2019 Type 1T, this adhesive is ideal for fixing ceramic, glazed ceramic, and unglazed tiles on interior surfaces",
-    image: "/assets/images/products/tiles-adhesive-gold.jpeg",
+      "The Ounce Ecstatic 15mm Series redefines modern home living with minimal 15mm interlocks, delivering expansive, uninterrupted views and a deep connection to the outdoors.",
+    image: "/assets/images/products/window-product-1.jpg",
     discription: [
-      "Tiles Adhesive Gold – Type 1T is a premium-grade, polymer-modified cementitious tile adhesive, formulated to comply with IS 15477:2019 – Type 1T (T1) standards. It is specifically designed for internal wall and floor applications, providing excellent adhesion for ceramic, glazed ceramic, and unglazed tiles in dry and intermittently wet areas such as kitchens and bathrooms.",
-
-      "This adhesive offers enhanced bond strength, slip resistance, and extended open time, making it ideal for vertical installations where tile slippage must be minimized. The inclusion of high-quality polymers improves flexibility, water retention, and overall durability, helping the adhesive accommodate minor thermal and structural movements without cracking or debonding.",
-
-      "Tiles Adhesive Gold – Type 1T is easy to mix and apply. It has a pot life of 90–120 minutes and an open time of at least 20 minutes, allowing for precise tile placement and adjustment. When applied with a notched trowel, it offers smooth workability and strong initial grab. Coverage ranges between 3–4 kg/m², depending on the substrate and trowel size.",
-
-      "It can be applied on cementitious substrates like plaster, mortar beds, and concrete. Surfaces should be clean, dry (or slightly damp), level, and free from contaminants. Once mixed in a 3:1 powder-to-water ratio, the adhesive creates a uniform paste ready for immediate application.",
-
-      "Available in 20 kg and 40 kg moisture-resistant bags, the product has a 12-month shelf life when stored in a cool, dry environment.",
-
-      "Tiles Adhesive Gold – Type 1T is a reliable and efficient solution for professional internal tile installations, ensuring strong adhesion, reduced tile slippage, and long-lasting durability for residential and commercial spaces.",
+      "The Ounce Ecstatic 15mm Series redefines modern home living by merging architectural sophistication with a profound connection to nature. Designed with a minimal 15mm interlock, these sliding windows offer expansive, uninterrupted views—inviting the outside world into your home with striking clarity. Crafted for those who believe a perfect home is not just built but felt, this series embraces the principles of comfort, security, and liberating openness. Whether it’s the gentle motion of trees, drifting clouds, or city lights flickering in the distance, the Ounce 15mm Series transforms every moment into a living painting.",
+      "From grassy fields stretching like a carpet outside your window to sunlight pouring in as natural indoor illumination, this innovative system blurs the boundaries between interior serenity and exterior splendor. The barely-there frames ensure your gaze is never interrupted—only guided.",
     ],
     usability: [
-      "Wall and Floor Tiling",
-      "Indoor and Outdoor Use",
-      "Professional and DIY Projects",
+      "Luxury Home Installations",
+      "High-Rise Apartments",
+      "Panoramic Natural Views",
     ],
     specification: [
-      "High Bond Strength",
-      "Waterproof and Heat Resistant",
-      "Ready-to-Use Formula",
+      "Minimal 15mm Interlock",
+      "Frameless Design",
+      "Smooth Sliding Mechanism",
     ],
-
-    backgroundColor: "#F3E1B3",
+    // backgroundColor: "#E3F2FD",
   },
   {
-    id: "som-002",
-    name: "Tiles Adhesive Silver",
-    slug: "Tiles-Adhesive-Silver",
-    tag: "Tiles-Adhesive-Silver",
+    id: "win-002",
+    name: "18mm Series Sliding Windows",
+    slug: "18mm-Series-Sliding-Windows",
+    tag: "Sliding-Windows-18mm",
     detail:
-      "Tile Adhesive Silver – Type 2T is a high-performance, polymer-modified, cementitious tile adhesive formulated in accordance with IS 15477:2019 for Type 2T specifications. It is designed specifically for fixing ceramic tiles (2x2 and 2x4 sizes) on both interior and exterior floor and wall surfaces, offering excellent bond strength, durability, and resistance to slippage and environmental conditions.",
-    image: "/assets/images/products/tiles-adhesive-silver.jpeg",
+      "Ounce's 18mm Series Sliding Windows deliver an immersive panoramic experience through ultra-slim interlocks and seamless architectural design.",
+    image: "/assets/images/products/window-product-2.jpg",
     discription: [
-      "Tile Adhesive Silver – Type 2T is a high-performance, polymer-modified cementitious adhesive formulated in accordance with IS 15477:2019 standards for Type 2T classification. Designed specifically for fixing 2x2 and 2x4 ceramic tiles, it is ideal for both internal and external applications on floors and walls. This adhesive offers excellent adhesion to cement-based substrates like plaster, concrete, screeds, and mortar beds. Its polymer modification enhances flexibility, water resistance, and durability, making it suitable for areas exposed to moisture and temperature variations.",
-
-      "The product is a grey, free-flowing powder that, when mixed with water (25–30% by weight), forms a smooth, workable paste. It has high bond strength with tensile adhesion values exceeding 1.0 N/mm², superior slip resistance (≤ 0.5 mm), and an extended open time of over 30 minutes. Its non-slip and extended adjustability features make it easy to work with, especially in vertical tile installations. The adhesive is also shrinkage and crack resistant, ensuring long-term performance even under moderate thermal or structural movements.",
-
-      "It is supplied in 20 kg or 25 kg moisture-resistant bags with a shelf life of 12 months when stored properly. Tile Adhesive Silver – Type 2T is the ideal solution for high-quality, reliable, and long-lasting ceramic tile installations.",
+      "The 18mm Series Sliding Windows by Ounce represent a new pinnacle in architectural design and lifestyle enhancement. With ultra-slim interlocks measuring just 18mm, these sliding windows redefine the connection between interior and exterior, turning your living space into an immersive panoramic experience.",
+      "Crafted with a flush-threshold profile and precision-engineered for effortless glide, the 18mm Series enables expansive openings and flood-lit interiors. Each frame acts like an unobtrusive canvas border—capturing sweeping views of nature, skyline, or cityscape with poetic clarity.",
+      "Designed for those who cherish space, serenity, and sophistication, this series transforms ordinary rooms into open sanctuaries. Whether it’s the gentle motion of leaves or golden hour sunlight filtering through, the 18mm Series Sliding Windows create a living canvas of the world outside—seamlessly blending security, comfort, and visual freedom.",
     ],
     usability: [
-      "Wall Tile Installation",
-      "Floor Tile Application",
-      "Bathroom & Wet Area Fixing",
+      "Modern Homes & Villas",
+      "Skyline View Apartments",
+      "Indoor-Outdoor Flow Design",
     ],
     specification: [
-      "Strong Bonding Formula",
-      "Water-Resistant Adhesive",
-      "Quick Setting & Durable",
+      "18mm Interlock",
+      "Flush Threshold",
+      "Panoramic View Optimization",
     ],
-    backgroundColor: "#D9D9D9",
+    // backgroundColor: "#F9FBE7",
   },
   {
-    id: "som-003",
-    name: "Tiles Adhesive Platenium",
-    slug: "Tiles-Adhesive-Platenium",
-    tag: "Tiles-Adhesive-Platenium",
+    id: "win-003",
+    name: "20mm Series Sliding Windows",
+    slug: "20mm-Series-Sliding-Windows",
+    tag: "Sliding-Windows-20mm",
     detail:
-      "Platenium 3T is a high-performance, polymer-modified tile adhesive designed for the most demanding tile fixing applications. Engineered to meet the requirements of IS 15477:2019, Type 3T, this adhesive is specially formulated for fixing vitrified tiles, large-format tiles, and glass mosaics on a wide range of substrates. Ideal for both internal and external applications, Platenium 3T offers superior bond strength, slip resistance, and flexibility, making it the preferred choice for modern tiling projects, including tiles-on-tiles applications.",
-    image: "/assets/images/products/tiles-adhesive-platenium.jpeg",
+      "Ounce Ecstatics’ 20mm Series combines refined design and performance, framing the world with elegance and technical precision.",
+    image: "/assets/images/products/window-product-3.jpg",
     discription: [
-      "Platenium 3T is a premium, polymer-modified tile adhesive formulated to meet the highest standards of tile installation, fully compliant with IS 15477:2019 – Type 3T. Specially engineered for demanding applications, it is ideal for fixing vitrified tiles, large-format ceramic tiles, glass mosaics, and for tiles-on-tiles installation.",
-
-      "Platenium 3T offers excellent adhesion, high bond strength, and extended open time, making it suitable for both internal and external walls and floors, including wet areas such as bathrooms, balconies, and swimming pool surroundings. The high polymer content enhances flexibility, thermal resistance, and resistance to cracking due to substrate movement or temperature fluctuations.",
-
-      "This adhesive is designed to work effectively on a wide variety of surfaces, including cementitious substrates, existing tile surfaces, and drywall panels (with appropriate preparation). It provides exceptional slip resistance, ensuring large and heavy tiles stay in place during installation. The smooth and workable consistency allows for easy application with a notched trowel, while its adjustability time and pot life offer convenience for installers over larger areas.",
-
-      "It comes in moisture-resistant bags of 20 kg and 30 kg and has a shelf life of 12 months when stored properly. Platenium 3T is the perfect solution for professionals seeking reliable, long-lasting tile installations across diverse environments.",
+      "The 20mm Series Sliding Windows by Ounce Ecstatics are a testament to refined design and architectural harmony. With ultra-slim 20mm interlocks, these premium sliding systems seamlessly blend the indoors with the outdoors—turning every view into a living masterpiece. Whether it’s the soft motion of trees, the shifting hues of the sky, or the urban glow on the horizon, these windows frame nature and cityscapes with subtlety and sophistication.",
+      "Crafted for contemporary lifestyles, the 20mm Series promotes open-plan living through wide, unobstructed openings and flush-threshold profiles. The design invites natural light deep into your interiors, creating spaces that are brighter, more inviting, and full of life. Engineered for strength, smooth operation, and superior insulation, these windows don’t just look elegant—they perform flawlessly.",
     ],
     usability: [
-      "High-Strength Bonding",
-      "Moisture-Resistant Application",
-      "Quick-Setting Installation",
+      "Contemporary Homes",
+      "Architectural Villas",
+      "Light-Focused Interiors",
     ],
     specification: [
-      "Polymer-Enhanced Formula",
-      "Superior Adhesion",
-      "Premium Quality Materials",
+      "20mm Slim Interlock",
+      "Flush Threshold Design",
+      "Thermal & Acoustic Insulation",
     ],
-    backgroundColor: "#DFE5A9",
+    // backgroundColor: "#FFF3E0",
   },
 ];

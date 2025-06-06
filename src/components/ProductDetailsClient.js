@@ -70,7 +70,7 @@ const ProductDetailsClient = ({ item }) => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+919942500600"; // Replace with your number
+    window.location.href = "tel:+919099060123"; // Replace with your number
   };
 
   const handleLocation = () => {
@@ -78,7 +78,7 @@ const ProductDetailsClient = ({ item }) => {
   };
 
   const handleWhatsApp = () => {
-    const phoneNumber = "919942500600"; // Replace with your number
+    const phoneNumber = "919099060123"; // Replace with your number
     const defaultMessage = `Hi, I'm interested in your products. Could you please provide more details?`;
 
     const encodedMessage = encodeURIComponent(defaultMessage);
@@ -89,7 +89,7 @@ const ProductDetailsClient = ({ item }) => {
   };
 
   const handleMail = () => {
-    window.location.href = "mailto:ostrocemex@gmail.com"; // Replace with your email
+    window.location.href = "mailto:info@ozounce.in"; // Replace with your email
   };
 
   const handleFacebook = () => {
@@ -147,8 +147,8 @@ const ProductDetailsClient = ({ item }) => {
 
     const userInfo = sessionStorage.getItem("userInfo");
     if (isMobile) {
-      const phoneNumber = "919942500600";
-      const imageUrl = `https://www.ostrocemex.com/${item?.image}`;
+      const phoneNumber = "919099060123";
+      const imageUrl = `https://www.ozounce.in/${item?.image}`;
 
       // Create a message with product details and image URL
       const message = `*Product Inquiry*
@@ -180,8 +180,8 @@ const ProductDetailsClient = ({ item }) => {
       if (!userInfo) {
         setIsPopupOpen(true);
       } else {
-        const phoneNumber = "919942500600";
-        const imageUrl = `https://www.ostrocemex.com/${item?.image}`;
+        const phoneNumber = "919099060123";
+        const imageUrl = `https://www.ozounce.in/${item?.image}`;
 
         // Create a message with product details and image URL
         const message = `*Product Inquiry*
@@ -852,13 +852,18 @@ const ProductDetailsClient = ({ item }) => {
                       alignItems: "center",
                       justifyContent: "center",
                       display: "flex",
-                      height: "400px",
+                      // height: "400px",
+                      width: "100%",
                     }}
                   >
-                    <Link href={`/product-details/${item.slug}`}>
+                    <Link
+                      href={`/product-details/${item.slug}`}
+                      style={{ width: "100%" }}
+                    >
                       <img
                         src={item.image} // <-- Update TV image here
                         alt="TV Product Image"
+                        style={{ width: "100%" }}
                       />
                     </Link>
                     <span
@@ -882,7 +887,7 @@ const ProductDetailsClient = ({ item }) => {
                       style={{
                         display: "-webkit-box",
                         WebkitBoxOrient: "vertical",
-                        WebkitLineClamp: 5,
+                        WebkitLineClamp: 4,
                         overflow: "hidden",
                         textOverflow: "ellipsis",
                         maxWidth: "300px",
@@ -915,8 +920,8 @@ const ProductDetailsClient = ({ item }) => {
                               className="flex items-center gap-2 px-3 py-1 mt-1 mb-3 rounded-lg transition"
                               style={{
                                 backgroundColor: "#FFF",
-                                border: "1px solid #B62025",
-                                borderColor: "#B62025",
+                                border: "1px solid #83BE41",
+                                borderColor: "#83BE41",
                                 display: "flex",
                                 flexDirection: "row",
                                 alignItems: "center",
@@ -926,7 +931,7 @@ const ProductDetailsClient = ({ item }) => {
                             >
                               <span
                                 className="underline"
-                                style={{ fontSize: "18px", color: "#B62025" }}
+                                style={{ fontSize: "18px", color: "#83BE41" }}
                               >
                                 View Details
                               </span>

@@ -56,7 +56,7 @@ const ListingDetailsRight = () => {
     const body = encodeURIComponent(
       "Hello, I am interested in your products. Please share more details."
     );
-    window.location.href = `mailto:ostrocemex@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@ozounce.in?subject=${subject}&body=${body}`;
   };
 
   const handleShare = async () => {
@@ -74,6 +74,29 @@ const ListingDetailsRight = () => {
       console.error("Share failed:", error);
     }
   };
+
+  const featuresArr = [
+    "GlassGuard",
+    "FrameLock",
+    "SealTight",
+    "ViewMax",
+    "ClimaShield",
+    "SlideEase",
+    "AirBlock",
+    "SafeLatch",
+    "SoundTrap",
+    "ClearEdge",
+    "SunResist",
+    "InvisiFrame",
+    "ThermoHold",
+    "FlexFit",
+    "SmartSlide",
+    "EcoPane",
+    "ToughView",
+    "UrbanSeal",
+    "SilentGlide",
+    "BrightLine",
+  ];
 
   return (
     <div className="col-lg-4">
@@ -109,11 +132,12 @@ const ListingDetailsRight = () => {
             }}
           >
             <i className="ti-book" />
-            <h3>Discover Our Premium Tile Adhesive Variants</h3>
+            <h3>Explore Our Premium Window Variants</h3>
             <a
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/assets/images/Ostro-Company-Profile.pdf";
+                link.href =
+                  "/assets/images/Ounce-Brochure-15-20MM-Print-LR.pdf";
                 link.target = "_blank"; // Open in a new tab
                 link.rel = "noopener noreferrer"; // Security best practice
                 document.body.appendChild(link);
@@ -124,7 +148,7 @@ const ListingDetailsRight = () => {
               style={{
                 display: "inline-block",
                 padding: "10px 20px",
-                backgroundColor: "#B62025",
+                backgroundColor: "#83BE41",
                 color: "#FFF",
                 textDecoration: "none",
                 borderRadius: "5px",
@@ -138,11 +162,11 @@ const ListingDetailsRight = () => {
 
         <div className="widget reservation-form-widget mb-30 wow fadeInUp">
           <h5 className="widget-title">
-            Explore Our Complete Range of Ostro Tile Adhesives
+            Explore Our Complete Range of Ounce Premium Windows
           </h5>
           <span style={{ marginBottom: "10px", marginTop: "10px" }}>
-            Discover premium tile bonding strength and pricing crafted for your
-            needs — absolutely free.
+            Discover superior strength, elegance, and energy efficiency—tailored
+            to your needs with a free quote.
           </span>
           <form onSubmit={(e) => e.preventDefault()}>
             <div className="form_group">
@@ -172,8 +196,8 @@ const ListingDetailsRight = () => {
                 onClick={() => {
                   const userInfo = sessionStorage.getItem("userInfo"); // Retrieve userInfo here
                   if (isMobile) {
-                    const phoneNumber = "919942500600"; // Replace with your WhatsApp number (in international format without '+')
-                    const message = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ostro tile adhesive products and would appreciate a consultation on how your solutions can enhance the durability, performance, and ease of application in our tiling projects.`;
+                    const phoneNumber = "919099060123"; // Replace with your WhatsApp number (in international format without '+')
+                    const message = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ounce sliding systems and would appreciate a consultation on how your solutions can enhance the functionality, design appeal, and ease of installation in our architectural and interior projects.`;
                     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
                       message
                     )}`;
@@ -184,8 +208,8 @@ const ListingDetailsRight = () => {
                     if (!userInfo) {
                       setIsPopupOpen(true); // Open the popup if session data is not available
                     } else {
-                      const phoneNumber = "919942500600"; // Replace with your WhatsApp number (in international format without '+')
-                      const message = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ostro tile adhesive products and would appreciate a consultation on how your solutions can enhance the durability, performance, and ease of application in our tiling projects.`;
+                      const phoneNumber = "919099060123"; // Replace with your WhatsApp number (in international format without '+')
+                      const message = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ounce sliding systems and would appreciate a consultation on how your solutions can enhance the functionality, design appeal, and ease of installation in our architectural and interior projects.`;
                       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
                         message
                       )}`;
@@ -196,7 +220,7 @@ const ListingDetailsRight = () => {
                   }
                 }}
               >
-                Adhesive Selector Guide
+                Window Adhesive Guide
               </button>
             </div>
           </form>
@@ -229,7 +253,7 @@ const ListingDetailsRight = () => {
                     alt="WhatsApp"
                     style={{ width: "17px", height: "17px" }}
                   />
-                  <a href="tel:+919942500600">+91 9942500600</a>
+                  <a href="tel:+919099060123">+91 9099060123</a>
                 </p>
                 <hr className="my-2 opacity-25" />
               </div>
@@ -242,11 +266,8 @@ const ListingDetailsRight = () => {
                     alt="WhatsApp"
                     style={{ width: "17px", height: "17px" }}
                   />
-                  <a
-                    style={{ fontSize: "16px" }}
-                    href="mailto:ostrocemex@gmail.com"
-                  >
-                    ostrocemex@gmail.com
+                  <a style={{ fontSize: "16px" }} href="mailto:info@ozounce.in">
+                    info@ozounce.in
                   </a>
                 </p>
                 <hr className="my-2 opacity-25" />
@@ -255,8 +276,8 @@ const ListingDetailsRight = () => {
                 <h5 className="widget-title my-2">Address</h5>
                 <p className="mx-2">
                   <a>
-                    FP No - 274, TP No - 229, Nr. Shilpgram I, Gate No - 2,
-                    Jaspur, Kalol, Gandhinagar, 382721. Gujarat
+                    Plot No. G601, Gate No.-2 (Almighty), GIDC Metoda, kalawad
+                    Road, Tal-Lodhika, Rajkot-360021
                   </a>
                   <button
                     className="btn p-0 text-decoration-none d-flex align-items-center"
@@ -282,8 +303,8 @@ const ListingDetailsRight = () => {
                   onClick={() => {
                     const userInfo = sessionStorage.getItem("userInfo"); // Retrieve userInfo here
                     if (isMobile) {
-                      const whatsappNumber = "919942500600"; // WhatsApp number in international format (without '+')
-                      const enquiryMessage = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ostro tile adhesive products and would appreciate a consultation on how your solutions can enhance the durability, performance, and ease of application in our tiling projects.`;
+                      const whatsappNumber = "919099060123"; // WhatsApp number in international format (without '+')
+                      const enquiryMessage = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ounce sliding window systems and would appreciate a consultation on how your solutions can enhance the aesthetics, durability, and functionality of our architectural and interior projects.`;
 
                       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
                         enquiryMessage
@@ -299,8 +320,8 @@ const ListingDetailsRight = () => {
                       if (!userInfo) {
                         setIsPopupOpen(true); // Open the popup if session data is not available
                       } else {
-                        const whatsappNumber = "919942500600"; // WhatsApp number in international format (without '+')
-                        const enquiryMessage = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ostro tile adhesive products and would appreciate a consultation on how your solutions can enhance the durability, performance, and ease of application in our tiling projects.`;
+                        const whatsappNumber = "919099060123"; // WhatsApp number in international format (without '+')
+                        const enquiryMessage = `Hello, I'm ${name} and my contact number is ${number}. I'm interested in learning more about your Ounce sliding window systems and would appreciate a consultation on how your solutions can enhance the aesthetics, durability, and functionality of our architectural and interior projects.`;
 
                         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
                           enquiryMessage
@@ -431,72 +452,15 @@ const ListingDetailsRight = () => {
           <h5 className="widget-title" style={{ marginBottom: "10px" }}>
             Get the List of Features we provide
           </h5>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            TileGrip Pro
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            Adhezo
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            Fixora
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            TileLock
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            GripStone
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            StrongHold
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            TileFixx
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            StickTuff
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            Adhero
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            MegaBond
-          </span>
-          <span
-            style={{ borderRadius: "20px" }}
-            className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
-          >
-            GripXpert
-          </span>
+          {featuresArr?.map((val, ind) => (
+            <span
+              key={ind}
+              style={{ borderRadius: "20px" }}
+              className="px-4 py-2 my-1 mr-3 rounded-full border border-gray-300 bg-white text-sm shadow-sm"
+            >
+              {val}
+            </span>
+          ))}
         </div>
       </div>
     </div>

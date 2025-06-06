@@ -2,14 +2,14 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Ostro - Brave New Strength",
+  title: "Ounce",
   description:
-    "Ostro offers high-performance tile adhesives designed for lasting strength, easy application, and superior bonding. Trusted by professionals for reliable results across all surfaces.",
+    "Ounce",
   manifest: "/manifest.json", // Path to the PWA manifest file
 };
 
 export const viewport = {
-  themeColor: "#B62025",
+  themeColor: "#83BE41",
 };
 
 export default function RootLayout({ children }) {
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content="/assets/images/og-image.jpg" />
-        <meta property="og:url" content="https://ostrocemex.com/" />
+        <meta property="og:url" content="https://ozounce.in/" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
