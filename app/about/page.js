@@ -66,14 +66,14 @@ const About = () => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+919942500600"; // Replace with your number
+    window.location.href = "tel:+919099060123"; // Replace with your number
   };
 
   const handleLocation = () => {
     window.open("https://maps.app.goo.gl/EZFSQGfVzj9pBQ5e9", "_blank");
   };
   const handleWhatsApp = () => {
-    const phoneNumber = "919942500600"; // Replace with your number
+    const phoneNumber = "919099060123"; // Replace with your number
     const defaultMessage = `Hi, I'm interested in your products. Could you please provide more details?`;
 
     const encodedMessage = encodeURIComponent(defaultMessage);
@@ -84,7 +84,7 @@ const About = () => {
   };
 
   const handleMail = () => {
-    window.location.href = "mailto:ostrocemex@gmail.com"; // Replace with your email
+    window.location.href = "mailto:info@ozounce.in"; // Replace with your email
   };
 
   const handleFacebook = () => {
@@ -372,7 +372,7 @@ const About = () => {
               <div className="col-lg-6">
                 <div className="section-title text-center mb-60 wow fadeInUp">
                   <span className="sub-title">Some Feature</span>
-                  <h2>Top Reasons To Use Ostro Adhesives</h2>
+                  <h2>Top Reasons To Choose Ounce Windows</h2>
                 </div>
               </div>
             </div>
@@ -392,12 +392,14 @@ const About = () => {
                     />
                   </div>
                   <div className="content">
-                    <h3 className="title">Unmatched Bonding Strength</h3>
+                    <h3 className="title">
+                      Engineered for All-Weather Durability
+                    </h3>
                     <p>
-                      At Ostro, we prioritize lasting connections. Our tile
-                      adhesive offers superior grip, ensuring tiles stay firmly
-                      in place for years — even in high-moisture and
-                      heavy-traffic areas.
+                      At Ounce, we design windows to endure. Built with
+                      high-grade materials and precision sealing, our windows
+                      withstand harsh sun, heavy rains, and extreme temperatures
+                      — without warping, fading, or leaking.
                     </p>
                     {/* <Link className="btn-link icon-btn" href="/how-work">
                       More Details
@@ -420,12 +422,12 @@ const About = () => {
                     />
                   </div>
                   <div className="content">
-                    <h3 className="title">Easy Application, Smooth Finish</h3>
+                    <h3 className="title">Precision-Fit Installation</h3>
                     <p>
-                      No more messy installations. Ostro adhesives spread
-                      effortlessly, offering excellent workability for both
-                      professionals and DIYers — leaving behind a flawless
-                      finish every time.
+                      Say goodbye to gaps and hassles. Ounce windows are
+                      manufactured to exact measurements, ensuring a snug,
+                      airtight fit that enhances energy efficiency and reduces
+                      noise infiltration.
                     </p>
                     {/* <Link className="btn-link icon-btn" href="/how-work">
                       More Details
@@ -448,11 +450,13 @@ const About = () => {
                     />
                   </div>
                   <div className="content">
-                    <h3 className="title">Versatile Compatibility</h3>
+                    <h3 className="title">
+                      Modern Aesthetics, Timeless Appeal
+                    </h3>
                     <p>
-                      Whether you're working with ceramic, vitrified, porcelain,
-                      or natural stone, Ostro's formula bonds seamlessly with
-                      various tile types and surfaces.
+                      From sleek sliders to classic casements, Ounce windows
+                      blend clean design with architectural elegance — elevating
+                      every space with style that never goes out of fashion.
                     </p>
                     {/* <Link className="btn-link icon-btn" href="/how-work">
                       More Details
@@ -475,13 +479,12 @@ const About = () => {
                     />
                   </div>
                   <div className="content">
-                    <h3 className="title">
-                      Professional Grade. Trusted by Experts
-                    </h3>
+                    <h3 className="title">Smart Security Integration</h3>
                     <p>
-                      Chosen by architects, builders, and contractors across the
-                      country — Ostro is the name professionals trust when only
-                      strength will do.
+                      Your safety matters. Ounce windows come with advanced
+                      locking systems, impact-resistant glass options, and
+                      compatibility with smart home devices — offering peace of
+                      mind without compromising design.
                     </p>
                     {/* <Link className="btn-link icon-btn" href="/how-work">
                       More Details
@@ -502,7 +505,7 @@ const About = () => {
               <div className="col-lg-6">
                 <div className="features-img wow fadeInLeft">
                   <img
-                    src="/assets/images/details-images/product-detail-4.jpg"
+                    src="/assets/images/details-images/about-us-speciality-image.jpg"
                     alt="Features Image"
                   />
                 </div>
@@ -511,11 +514,12 @@ const About = () => {
                 <div className="features-content-box features-content-box-one">
                   <div className="section-title section-title-left mb-30 wow fadeInUp">
                     <span className="sub-title">Our Speciality</span>
-                    <h2>Experience Tiling Like Never Before</h2>
+                    <h2>Experience Windows Like Never Before</h2>
                   </div>
                   <h5>
-                    Enjoy superior grip, lasting durability, and flawless finish
-                    with Ostro Tile Adhesives.
+                    Discover unmatched strength, sleek design, and all-season
+                    performance with Ounce Windows – built for beauty, comfort,
+                    and security.
                   </h5>
                   <ul className="features-list-one">
                     <li
@@ -532,10 +536,10 @@ const About = () => {
                         />
                       </div>
                       <div className="content">
-                        <h5>Bond with Strength, Built to Last</h5>
+                        <h5>Built with Precision, Framed to Last</h5>
                         <p>
-                          Experience unmatched durability and grip with Ostro
-                          Tile Adhesives – engineered for ultimate performance.
+                          Discover Ounce Windows—engineered for enduring
+                          strength, perfect insulation, and timeless appeal.
                         </p>
                       </div>
                     </li>
@@ -553,10 +557,10 @@ const About = () => {
                         />
                       </div>
                       <div className="content">
-                        <h5>Perfect Fit, Every Time</h5>
+                        <h5>Seamless Fit, Stunning Finish</h5>
                         <p>
-                          From kitchens to commercial spaces, find the right
-                          adhesive for every tile, surface, and style.
+                          From modern homes to commercial marvels, find the
+                          ideal window design, size, and style for every space.
                         </p>
                       </div>
                     </li>
@@ -574,10 +578,11 @@ const About = () => {
                         />
                       </div>
                       <div className="content">
-                        <h5>Smart & Easy Application</h5>
+                        <h5>Smart Design, Effortless Installation</h5>
                         <p>
-                          User-friendly formulas and guided instructions make
-                          installation quick, clean, and stress-free.
+                          Pre-engineered frames, sleek finishes, and
+                          easy-to-install mechanisms for a quick, clean, and
+                          hassle-free setup.
                         </p>
                       </div>
                     </li>
@@ -595,10 +600,11 @@ const About = () => {
                         />
                       </div>
                       <div className="content">
-                        <h5>24/7 Expert Support</h5>
+                        <h5>Always by Your Side</h5>
                         <p>
-                          Need advice or technical help? Our specialists are
-                          just a call or click away, anytime.
+                          From consultation to after-sales service, Ounce
+                          experts are ready 24/7 to guide, support, and ensure
+                          satisfaction.
                         </p>
                       </div>
                     </li>
@@ -611,10 +617,11 @@ const About = () => {
                 <div className="content">
                   <h5>Our Vision</h5>
                   <p>
-                    To redefine the foundation of modern living spaces by
-                    delivering strong, reliable, and innovative tile adhesive
-                    solutions—empowering every home and structure with lasting
-                    strength, seamless beauty, and enduring confidence.
+                    To revolutionize modern architecture by crafting premium,
+                    durable, and aesthetically refined windows—enhancing every
+                    space with natural light, energy efficiency, and timeless
+                    design. At Ounce, we aim to be the clear choice for smart,
+                    sustainable, and stylish living.
                   </p>
                 </div>
               </div>
@@ -622,15 +629,17 @@ const About = () => {
                 <div className="content">
                   <h5>Our Mission</h5>
                   <p>
-                    At Ostro, our mission is to build strength from the ground
-                    up—by providing high-performance tile adhesives that ensure
-                    lasting durability, precision, and confidence in every bond.
-                    We are committed to setting new benchmarks in quality and
-                    reliability through advanced formulations, sustainable
-                    solutions, and a deep understanding of our customers’ needs.
-                    With "Strength" at our core, we aim to support every
-                    project—from homes to high-rises—with unwavering integrity
-                    and innovation.
+                    At Ounce, our mission is to frame a brighter, stronger
+                    future—by crafting high-quality, precision-engineered
+                    windows that redefine modern living. We are dedicated to
+                    delivering seamless aesthetics, superior insulation, and
+                    lasting durability in every frame. Guided by innovation,
+                    sustainability, and a deep understanding of architectural
+                    needs, we aim to enhance every space—be it a cozy home or a
+                    towering skyline—with clarity, comfort, and confidence. With
+                    “transparency and strength” at our foundation, Ounce is
+                    committed to opening new possibilities, one window at a
+                    time.
                   </p>
                 </div>
               </div>
@@ -676,25 +685,26 @@ const About = () => {
                 }}
               >
                 <h2 style={{ textAlign: "center" }}>
-                  Experience Unmatched Bonding Strength
+                  Experience Unmatched Craftsmanship
                 </h2>
                 <p style={{ textAlign: "center" }}>
-                  Premium tile adhesive solutions offering superior grip,
-                  long-lasting durability, and seamless finish — built to
-                  transform your surfaces with perfection that lasts.
+                  Premium window solutions from Ounce offering superior
+                  strength, lasting durability, and a flawless finish — designed
+                  to transform every space with beauty, security, and
+                  performance that endures.
                 </p>
                 <a
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = "/assets/images/Ostro-Company-Profile.pdf";
-                    link.download = "Ostro-Company-Catalogue.pdf"; // Optional: Specify the file name
+                    link.href = "/assets/images/Ounce-Brochure-15-20MM-Print-LR.pdf";
+                    link.download = "Ounce-Brochure-15-20MM-Print-LR.pdf"; // Optional: Specify the file name
                     link.click();
                   }}
                   className="main-btn"
                   style={{
                     display: "inline-block",
                     padding: "10px 20px",
-                    backgroundColor: "#B62025",
+                    backgroundColor: "#83BE41",
                     color: "#FFF",
                     textDecoration: "none",
                     borderRadius: "5px",
@@ -786,7 +796,7 @@ const About = () => {
                     <button
                       className="main-btn"
                       style={{
-                        backgroundColor: "#B62025",
+                        backgroundColor: "#83BE41",
                       }}
                       onClick={() => {
                         const userInfo = sessionStorage.getItem("userInfo"); // Retrieve userInfo here
@@ -800,7 +810,7 @@ const About = () => {
                               document.getElementById("whatsappMessage").value;
                             const encodedMessage = encodeURIComponent(message);
                             // Replace with your actual WhatsApp number (with country code, remove +)
-                            const whatsappNumber = "919942500600";
+                            const whatsappNumber = "919099060123";
                             window.open(
                               `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
                               "_blank"

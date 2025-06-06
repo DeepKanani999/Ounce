@@ -54,7 +54,7 @@ export default function UserInfoPopup({ isOpen, onClose }) {
         style={{
           fontSize: "24px",
           fontWeight: "bold",
-          color: "#B62025",
+          color: "#83BE41",
           marginBottom: "8px",
         }}
       >
@@ -129,7 +129,7 @@ export default function UserInfoPopup({ isOpen, onClose }) {
           disabled={isSubmitting}
           style={{
             width: "100%",
-            backgroundColor: "#B62025",
+            backgroundColor: "#83BE41",
             color: "white",
             padding: "12px",
             borderRadius: "8px",
